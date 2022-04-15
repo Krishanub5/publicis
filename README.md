@@ -1,6 +1,5 @@
-**Terraform AWS IaC
-Acceptance Criteria:
-**
+**Terraform AWS IaC**
+**Acceptance Criteria:**
 1.	Include a vpc to enable future growth and scale
 2.	Include private and public subnet - Public for Load balancer, Private for Instances
 3.	Security Group to allow only menial ports
