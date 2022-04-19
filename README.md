@@ -25,15 +25,22 @@ terraform -v
 
 **Usage:**
 •	Change Directory to the Directory housing the terraform scirpt
+  
 •	To Initialize:
-terraform init
+  
+    terraform init
+  
 •	To Deploy:
-terraform apply -auto-approve
+  
+    terraform apply -auto-approve
+  
 •	To Destroy:
-terraform destroy -auto-approve
+  
+    terraform destroy -auto-approve
 
   
 **Components Breakdown:**
+  
 1.	VPC: To serve the entire Infrastructure
 2.	Internet Gateway: To provide External Connectivity form VPC
 3.	Nat Gateway: To provide Natted Connectivity to Private Instances
